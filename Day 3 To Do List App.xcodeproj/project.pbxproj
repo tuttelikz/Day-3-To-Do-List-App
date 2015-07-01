@@ -14,6 +14,10 @@
 		511F3D781B29459500FDD3AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 511F3D771B29459500FDD3AA /* Images.xcassets */; };
 		511F3D7B1B29459500FDD3AA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 511F3D791B29459500FDD3AA /* LaunchScreen.xib */; };
 		511F3D871B29459500FDD3AA /* Day_3_To_Do_List_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 511F3D861B29459500FDD3AA /* Day_3_To_Do_List_AppTests.m */; };
+		511F3D921B29487100FDD3AA /* AddTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 511F3D911B29487100FDD3AA /* AddTaskViewController.m */; };
+		511F3D951B29496100FDD3AA /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 511F3D941B29496100FDD3AA /* Task.m */; };
+		511F3D981B29748100FDD3AA /* DisplayTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 511F3D971B29748100FDD3AA /* DisplayTaskViewController.m */; };
+		511F3D9A1B299E1F00FDD3AA /* mercedes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 511F3D991B299E1E00FDD3AA /* mercedes.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,13 @@
 		511F3D801B29459500FDD3AA /* Day 3 To Do List AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Day 3 To Do List AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		511F3D851B29459500FDD3AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		511F3D861B29459500FDD3AA /* Day_3_To_Do_List_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day_3_To_Do_List_AppTests.m; sourceTree = "<group>"; };
+		511F3D901B29487100FDD3AA /* AddTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddTaskViewController.h; sourceTree = "<group>"; };
+		511F3D911B29487100FDD3AA /* AddTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTaskViewController.m; sourceTree = "<group>"; };
+		511F3D931B29496100FDD3AA /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		511F3D941B29496100FDD3AA /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+		511F3D961B29748100FDD3AA /* DisplayTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DisplayTaskViewController.h; path = ../DisplayTaskViewController.h; sourceTree = "<group>"; };
+		511F3D971B29748100FDD3AA /* DisplayTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DisplayTaskViewController.m; path = ../DisplayTaskViewController.m; sourceTree = "<group>"; };
+		511F3D991B299E1E00FDD3AA /* mercedes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mercedes.jpg; path = "../../../../Dropbox/thesummerstartupschool.com - 2015/iOS Course/Day 2/files/mercedes.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,12 +92,19 @@
 		511F3D691B29459500FDD3AA /* Day 3 To Do List App */ = {
 			isa = PBXGroup;
 			children = (
+				511F3D961B29748100FDD3AA /* DisplayTaskViewController.h */,
+				511F3D971B29748100FDD3AA /* DisplayTaskViewController.m */,
 				511F3D6E1B29459500FDD3AA /* AppDelegate.h */,
 				511F3D6F1B29459500FDD3AA /* AppDelegate.m */,
 				511F3D711B29459500FDD3AA /* ViewController.h */,
 				511F3D721B29459500FDD3AA /* ViewController.m */,
+				511F3D901B29487100FDD3AA /* AddTaskViewController.h */,
+				511F3D911B29487100FDD3AA /* AddTaskViewController.m */,
 				511F3D741B29459500FDD3AA /* Main.storyboard */,
+				511F3D931B29496100FDD3AA /* Task.h */,
+				511F3D941B29496100FDD3AA /* Task.m */,
 				511F3D771B29459500FDD3AA /* Images.xcassets */,
+				511F3D991B299E1E00FDD3AA /* mercedes.jpg */,
 				511F3D791B29459500FDD3AA /* LaunchScreen.xib */,
 				511F3D6A1B29459500FDD3AA /* Supporting Files */,
 			);
@@ -202,6 +220,7 @@
 				511F3D761B29459500FDD3AA /* Main.storyboard in Resources */,
 				511F3D7B1B29459500FDD3AA /* LaunchScreen.xib in Resources */,
 				511F3D781B29459500FDD3AA /* Images.xcassets in Resources */,
+				511F3D9A1B299E1F00FDD3AA /* mercedes.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +238,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				511F3D981B29748100FDD3AA /* DisplayTaskViewController.m in Sources */,
+				511F3D951B29496100FDD3AA /* Task.m in Sources */,
 				511F3D731B29459500FDD3AA /* ViewController.m in Sources */,
+				511F3D921B29487100FDD3AA /* AddTaskViewController.m in Sources */,
 				511F3D701B29459500FDD3AA /* AppDelegate.m in Sources */,
 				511F3D6D1B29459500FDD3AA /* main.m in Sources */,
 			);
